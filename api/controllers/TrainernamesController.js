@@ -12,7 +12,6 @@ module.exports = {
             if(err){
                 res.send(500, {error: 'Database Error'});
             }
-    
            res.send("success");
         });
       },

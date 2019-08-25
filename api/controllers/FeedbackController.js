@@ -40,10 +40,26 @@ module.exports = {
   
          res.send({message : "success"});
       });
-  }
-
-
+  },
+  createEbGuideForm:function(req, res){
+      //console.log(req.body);
+    //   var name = req.body.name;
+    //   var training = req.body.training;
+    //   var trainers = req.body.trainers;
+    //   var questions = req.body.questions;
+    //   var date = req.body.date;
+    //   var location = req.body.location;
+//   console.log(req.body);
   
-  };
+  EbGuideFeedback.create({formValue:req.body}).exec(function(err){
+          if(err){
+              res.send(500, {error: 'Database Error'});
+          }
+            console.log(req.body);
+  
+         res.send({message : "success"});
+      });
+  }
+};
   
   

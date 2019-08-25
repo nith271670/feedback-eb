@@ -75,6 +75,12 @@ action: 'add'
   action: 'create'
  
 },
+'post /feedback/createEbGuideForm':   {
+ // view: 'articles/add',
+  controller: 'FeedbackController',
+  action: 'createEbGuideForm'
+ 
+},
 
 'get /trainingdetails/edit/:id':   {
  // view: 'articles/edit/:id',
