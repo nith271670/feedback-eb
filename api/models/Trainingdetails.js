@@ -12,7 +12,8 @@ module.exports = {
     trainers: {type:'json'},
     location: {type:'string'},
     from_date: {type:'string'},
-    to_date: {type:'string'}
+    to_date: {type:'string'},
+    enableEbGuideForm: {type:'boolean'}
 },
   datastores:'mongodb'
 };
