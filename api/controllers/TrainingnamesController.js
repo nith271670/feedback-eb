@@ -8,7 +8,7 @@
 module.exports = {
     add: function(req, res){
         var training = req.body.training;
-        Trainingnames.create({training:training}).exec(function(err){
+        Trainingnames.create({training:training, enableEbGuideForm:req.body.enableEbGuideForm}).exec(function(err){
             if(err){
                 res.send(500, {error: 'Database Error'});
             }

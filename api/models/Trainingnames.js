@@ -8,7 +8,8 @@
 module.exports = {
 
   attributes: {
-    training: {type:'string'}
+    training: {type:'string'},
+    enableEbGuideForm: {type:'boolean'}
 },
   datastores:'mongodb'
 };
