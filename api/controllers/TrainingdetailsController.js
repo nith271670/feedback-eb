@@ -14,9 +14,10 @@ module.exports = {
         var location = req.body.location;
         var from_date = req.body.from_date;
         var to_date = req.body.to_date;
+        var training_hours = req.body.training_hours;
         var enableEbGuideForm = req.body.enableEbGuideForm;
 
-        Trainingdetails.create({training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date,enableEbGuideForm:enableEbGuideForm}).exec(function(err){
+        Trainingdetails.create({training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date,training_hours:training_hours,enableEbGuideForm:enableEbGuideForm}).exec(function(err){
             if(err){
                 res.send(500, {error: 'Database Error'});
             }
@@ -72,9 +73,10 @@ module.exports = {
         var location = req.body.location;
         var from_date = req.body.from_date;
         var to_date = req.body.to_date;
+        var training_hours = req.body.training_hours;
 
         console.log(req.params.id);
-        Trainingdetails.update({id: req.params.id},{training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date}).exec(function(err){
+        Trainingdetails.update({id: req.params.id},{training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date, training_hours:training_hours}).exec(function(err){
             if(err){
                 res.send(500, {error: 'Database Error'});
             }

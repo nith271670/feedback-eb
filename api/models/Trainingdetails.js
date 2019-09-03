@@ -13,6 +13,7 @@ module.exports = {
     location: {type:'string'},
     from_date: {type:'string'},
     to_date: {type:'string'},
+    training_hours: {type: 'integer'},
     enableEbGuideForm: {type:'boolean'}
 },
   datastores:'mongodb'
