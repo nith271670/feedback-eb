@@ -85,7 +85,7 @@ action: 'add'
 'get /feedback/ebguidelist':   {
   // view: 'questions/list',
   controller: 'FeedbackController',
-  action: 'list'
+  action: 'ebguidelist'
  
 },
 
