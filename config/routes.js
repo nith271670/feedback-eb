@@ -82,6 +82,13 @@ action: 'add'
  
 },
 
+'get /feedback/ebguidelist':   {
+  // view: 'questions/list',
+  controller: 'FeedbackController',
+  action: 'list'
+ 
+},
+
 'get /trainingdetails/edit/:id':   {
  // view: 'articles/edit/:id',
   controller: 'TrainingdetailsController',
