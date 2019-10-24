@@ -10,14 +10,15 @@ module.exports = {
     add: function(req, res){
         var training = req.body.training;
         var trainers = req.body.trainers;
-        console.log(trainers);
+        var group = req.body.group;        
         var location = req.body.location;
         var from_date = req.body.from_date;
         var to_date = req.body.to_date;
         var training_hours = req.body.training_hours;
+        var createdBy = req.body.createdBy;
         var enableEbGuideForm = req.body.enableEbGuideForm;
 
-        Trainingdetails.create({training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date,training_hours:training_hours,enableEbGuideForm:enableEbGuideForm}).exec(function(err){
+        Trainingdetails.create({training:training, trainers:trainers,createdBy:createdBy,group:group,location:location,from_date:from_date,to_date:to_date,training_hours:training_hours,enableEbGuideForm:enableEbGuideForm}).exec(function(err){
             if(err){
                 res.send(500, {error: 'Database Error'});
             }
@@ -59,7 +60,7 @@ module.exports = {
             if(err){
                   //res.send(500,{error:'database error'});
             }
-            console.log(feedback);
+            //console.log(feedback);
             return res.json(feedback)
            // res.send("success", );
             //res.view('questions/list', { questions: questions });
@@ -68,15 +69,18 @@ module.exports = {
         })
     },
     update: function(req, res){
+        //console.log("update training details")
+        //console.log(req.body)
+        var group = req.body.group;        
         var training = req.body.training;
         var trainers = req.body.trainers;
         var location = req.body.location;
         var from_date = req.body.from_date;
         var to_date = req.body.to_date;
+        //var createdBy = req.body.createdBy;
         var training_hours = req.body.training_hours;
 
-        console.log(req.params.id);
-        Trainingdetails.update({id: req.params.id},{training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date, training_hours:training_hours}).exec(function(err){
+        Trainingdetails.update({id: req.params.id},{group:group,training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date, training_hours:training_hours}).exec(function(err){
             if(err){
                 res.send(500, {error: 'Database Error'});
             }

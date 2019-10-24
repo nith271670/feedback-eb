@@ -54,7 +54,8 @@ module.exports.datastores = {
 	
    adapter: 'sails-mongo',
   // url: 'mongodb://localhost:27017/feedbackdb'
-   url: 'mongodb://sunitha:nivedan1@ds221115.mlab.com:21115/feedbackdb',
+   //url: 'mongodb://sunitha:nivedan1@ds221115.mlab.com:21115/feedbackdb',
+   url: 'mongodb://nith271670:One2three@ds117866.mlab.com:17866/feedbackdb_new',
   // ssl: false
     //host: 'cluster0-argiv.mongodb.net',
     //port: 27017,

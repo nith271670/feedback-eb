@@ -14,6 +14,7 @@ module.exports = {
     from_date: {type:'string'},
     to_date: {type:'string'},
     training_hours: {type: 'integer'},
+    createdBy: {type: 'string'},
     enableEbGuideForm: {type:'boolean'}
 },
   datastores:'mongodb'

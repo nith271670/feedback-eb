@@ -4,11 +4,12 @@
  * @description :: Server-side actions for handling incoming requests.
  * @help        :: See https://sailsjs.com/docs/concepts/actions
  */
-
+ 
 module.exports = {
     add: function(req, res){
         var training = req.body.training;
-        Trainingnames.create({training:training, enableEbGuideForm:req.body.enableEbGuideForm}).exec(function(err){
+        var groupId = req.body.groupId;
+        Trainingnames.create({training:training, groupId:groupId,enableEbGuideForm:req.body.enableEbGuideForm}).exec(function(err){
             if(err){
                 res.send(500, {error: 'Database Error'});
             }

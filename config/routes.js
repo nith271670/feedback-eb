@@ -69,6 +69,18 @@ action: 'add'
      action: 'list'
     
    },
+   'get /Traininggroups/list':   {
+    // view: 'questions/add',
+     controller: 'TrainingGroupsController',
+     action: 'list'
+    
+   },
+   'post /Traininggroups/add':   {
+    // view: 'questions/add',
+     controller: 'TrainingGroupsController',
+     action: 'add'
+    
+   },
 'post /feedback/create':   {
  // view: 'articles/add',
   controller: 'FeedbackController',
@@ -107,6 +119,45 @@ action: 'add'
  action: 'delete'
 
 },
+
+'get /users/list':   {
+  // view: 'articles/edit/:id',
+   controller: 'UsersController',
+   action: 'list'
+  
+ },
+ 'get /users/getuser/:username':   {
+  //view: 'articles/edit',
+  controller: 'UsersController',
+  action: 'getuser'
+ 
+ },
+ 'post /users/add':   {
+  //view: 'users/adduser',
+  controller: 'UsersController',
+  action: 'add'
+ 
+ },
+
+ 'get /users/list':   {
+  //view: 'users/list',
+  controller: 'UsersController',
+  action: 'list'
+ 
+},
+
+'get /usersgroup/list':   {
+  // view: 'articles/edit/:id',
+   controller: 'UsersGroupController',
+   action: 'list'
+  
+ },
+ 'post /usersgroup/add':   {
+  //view: 'users/adduser',
+  controller: 'UsersGroupController',
+  action: 'add'
+ 
+ },
 
   /***************************************************************************
   *                                                                          *
