@@ -78,9 +78,10 @@ module.exports = {
         var from_date = req.body.from_date;
         var to_date = req.body.to_date;
         //var createdBy = req.body.createdBy;
+        var enableEbGuideForm = req.body.enableEbGuideForm
         var training_hours = req.body.training_hours;
 
-        Trainingdetails.update({id: req.params.id},{group:group,training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date, training_hours:training_hours}).exec(function(err){
+        Trainingdetails.update({id: req.params.id},{group:group,training:training, trainers:trainers,location:location,from_date:from_date,to_date:to_date, training_hours:training_hours,enableEbGuideForm:enableEbGuideForm}).exec(function(err){
             if(err){
                 res.send(500, {error: 'Database Error'});
             }
