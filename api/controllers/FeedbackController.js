@@ -62,6 +62,28 @@ module.exports = {
           //res.view('/articles/list',{articles:articles});
       })
         
+  },
+
+  createsurvey:function(req, res){
+    //console.log(req.body);
+    var surveydetails = req.body.surveydetails;
+
+    EBSurvey.create({surveydetails: surveydetails}).exec(function(err){
+        if(err){
+            res.send(500, {error: 'Database Error'});
+        }
+       res.send({message : "success"});
+    });
+},
+surveylist:async function(req, res){
+    EBSurvey.find({}).exec(function(err,questions){
+          if(err){
+                res.send(500,{error:'database error'});
+          }
+          //console.log(questions);
+          return res.json(questions)
+      })
+        
   }
 };
   

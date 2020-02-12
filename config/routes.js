@@ -101,6 +101,20 @@ action: 'add'
  
 },
 
+'post /surveyfeedback/create':   {
+  // view: 'articles/add',
+   controller: 'FeedbackController',
+   action: 'createsurvey'
+  
+ },
+
+ 'get /surveyfeedback/list':   {
+ // view: 'questions/list',
+  controller: 'FeedbackController',
+  action: 'surveylist'
+ 
+},
+
 'get /trainingdetails/edit/:id':   {
  // view: 'articles/edit/:id',
   controller: 'TrainingdetailsController',
@@ -119,6 +133,45 @@ action: 'add'
  action: 'delete'
 
 },
+
+//survey
+
+'post /surveydetails/add':   {
+  // view: 'questions/add',
+   controller: 'SurveydetailsController',  
+action: 'add'
+ 
+},
+'get /surveydetails/list':   {
+  // view: 'questions/add',
+   controller: 'SurveydetailsController',
+   action: 'list'
+  
+ },
+'get /surveydetails/details/:id':   {
+  // view: 'questions/add',
+   controller: 'SurveydetailsController',
+   action: 'details'
+  
+ },
+'get /surveydetails/edit/:id':   {
+  // view: 'articles/edit/:id',
+   controller: 'SurveydetailsController',
+   action: 'edit'
+  
+ },
+ 'post /surveydetails/update/:id':   {
+  //view: 'articles/edit',
+  controller: 'SurveydetailsController',
+  action: 'update'
+ 
+ },
+ 'post /surveydetails/delete/:id':   {
+  //view: 'articles/edit',
+  controller: 'SurveydetailsController',
+  action: 'delete'
+ 
+ },
 
 'get /users/list':   {
   // view: 'articles/edit/:id',
