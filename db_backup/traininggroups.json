@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5dad3a66e7179a02244f6729"},"createdAt":{"$numberLong":"1573718119233"},"updatedAt":{"$numberLong":"1573718119233"},"group_name":"HR","groupId":"EB002","description":"HR trainings"}
+{"_id":{"$oid":"5dad3a74e7179a02244f672b"},"createdAt":{"$numberLong":"1573718119233"},"updatedAt":{"$numberLong":"1573718119233"},"group_name":"Others","groupId":"EB003","description":"External training"}
+{"_id":{"$oid":"5dad3a96e7179a02244f672e"},"createdAt":{"$numberLong":"1573718119233"},"updatedAt":{"$numberLong":"1573718119233"},"group_name":"EB Products","groupId":"EB001","description":"EB Products"}

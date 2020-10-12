@@ -1,6 +1,43 @@
-{"_id":{"$oid":"5cefb704e7179a0a437d56e0"},"training":"EB Tresos Classic AUTOSAR"}
-{"_id":{"$oid":"5cefb71ae7179a0a437d56e4"},"training":"EB Carbos Adaptive Autosar"}
-{"_id":{"$oid":"5cefb74be7179a0a437d56ea"},"training":"EB Tresos Studio Training"}
-{"_id":{"$oid":"5cefb7a4e7179a0a437d5716"},"training":"EB Guide"}
-{"_id":{"$oid":"5d0b1cdf0bde880017a672e3"},"training":"ASPICE","createdAt":{"$numberLong":"1561009375154"},"updatedAt":{"$numberLong":"1561009375154"}}
-{"_id":{"$oid":"5d26f483026a790017b11662"},"training":"New Training","createdAt":{"$numberLong":"1562834051036"},"updatedAt":{"$numberLong":"1562834051036"}}
+{"_id":{"$oid":"5cefb704e7179a0a437d56e0"},"createdAt":{"$numberLong":"1573718119246"},"updatedAt":{"$numberLong":"1573718119246"},"training":"EB Tresos Classic AUTOSAR","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5cefb71ae7179a0a437d56e4"},"createdAt":{"$numberLong":"1573718119246"},"updatedAt":{"$numberLong":"1573718119246"},"training":"EB Carbos Adaptive Autosar","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5cefb74be7179a0a437d56ea"},"createdAt":{"$numberLong":"1573718119246"},"updatedAt":{"$numberLong":"1573718119246"},"training":"EB Tresos Studio Training","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5cefb7a4e7179a0a437d5716"},"createdAt":{"$numberLong":"1573718119246"},"updatedAt":{"$numberLong":"1573718119246"},"training":"EB Guide","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5d0b1cdf0bde880017a672e3"},"createdAt":{"$numberLong":"1561009375154"},"updatedAt":{"$numberLong":"1561009375154"},"training":"ASPICE","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5d4bb5c13538ac0017d88f10"},"createdAt":{"$numberLong":"1565242817530"},"updatedAt":{"$numberLong":"1565242817530"},"training":"TDD workshop","enableEbGuideForm":false,"groupId":"EB003"}
+{"_id":{"$oid":"5d4d2a8a08a435001794931c"},"createdAt":{"$numberLong":"1565338250435"},"updatedAt":{"$numberLong":"1565338250435"},"training":"LearnLab : Coderetreat","enableEbGuideForm":false,"groupId":"EB003"}
+{"_id":{"$oid":"5d5e2f18f64d7e0017bb5252"},"createdAt":{"$numberLong":"1566453528874"},"updatedAt":{"$numberLong":"1566453528874"},"training":"TDD Workshop 02","enableEbGuideForm":false,"groupId":"EB003"}
+{"_id":{"$oid":"5d71ed12caa01e00173b2f3b"},"createdAt":{"$numberLong":"1567747346603"},"updatedAt":{"$numberLong":"1567747346603"},"training":"Induction","enableEbGuideForm":false,"groupId":"EB002"}
+{"_id":{"$oid":"5d75dd62c97c570017564669"},"createdAt":{"$numberLong":"1568005474844"},"updatedAt":{"$numberLong":"1568005474844"},"training":"Train the trainer","enableEbGuideForm":false,"groupId":"EB003"}
+{"_id":{"$oid":"5d7a1764c56ac00017bc0456"},"createdAt":{"$numberLong":"1568282468276"},"updatedAt":{"$numberLong":"1568282468276"},"training":"BDD","enableEbGuideForm":false,"groupId":"EB002"}
+{"_id":{"$oid":"5d8c47567d22120017636f64"},"createdAt":{"$numberLong":"1569474390012"},"updatedAt":{"$numberLong":"1569474390012"},"training":"PEP-3","enableEbGuideForm":false,"groupId":"EB002"}
+{"_id":{"$oid":"5d8c47607d22120017636f65"},"createdAt":{"$numberLong":"1569474400107"},"updatedAt":{"$numberLong":"1569474400107"},"training":"PEP-2","enableEbGuideForm":false,"groupId":"EB002"}
+{"_id":{"$oid":"5d9ebc07b355f50017ee893c"},"createdAt":{"$numberLong":"1570683911818"},"updatedAt":{"$numberLong":"1570683911818"},"training":"German Intercultural Training","enableEbGuideForm":false,"groupId":"EB002"}
+{"_id":{"$oid":"5da444b270ff1f00179b8023"},"createdAt":{"$numberLong":"1571046578767"},"updatedAt":{"$numberLong":"1571046578767"},"training":"RTE","enableEbGuideForm":false,"groupId":"EB003"}
+{"_id":{"$oid":"5db6f432f697ab00170d4315"},"createdAt":{"$numberLong":"1572271154219"},"updatedAt":{"$numberLong":"1572271154219"},"training":"hr_test","enableEbGuideForm":false,"groupId":"EB002"}
+{"_id":{"$oid":"5db705dff0baba00179cbd10"},"createdAt":{"$numberLong":"1572275679886"},"updatedAt":{"$numberLong":"1572275679886"},"training":"abc","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5db94be5e8043e0017574132"},"createdAt":{"$numberLong":"1572424677577"},"updatedAt":{"$numberLong":"1572424677577"},"training":"Trainin1","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5db96178e8043e0017574138"},"createdAt":{"$numberLong":"1572430200146"},"updatedAt":{"$numberLong":"1572430200146"},"training":"Code conduct","enableEbGuideForm":false,"groupId":"EB002"}
+{"_id":{"$oid":"5dbae9e1bb1f2d001756a2ce"},"createdAt":{"$numberLong":"1572530657085"},"updatedAt":{"$numberLong":"1572530657085"},"training":"EB GUIDE Speech","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5dbaf5acbb1f2d001756a2d0"},"createdAt":{"$numberLong":"1572533676447"},"updatedAt":{"$numberLong":"1572533676447"},"training":"AUTOSAR RTE","enableEbGuideForm":false,"groupId":"EB001"}
+{"_id":{"$oid":"5e340625da9b1f00171edcb0"},"training":"Test1","groupId":"EB002","createdAt":{"$numberLong":"1580467749751"},"updatedAt":{"$numberLong":"1580467749751"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5e3d274c658be0001746c8f4"},"training":"Classic AUTOSAR (EB tresos)","groupId":"EB002","createdAt":{"$numberLong":"1581066060113"},"updatedAt":{"$numberLong":"1581066060113"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5e40ccf3a1fd750017f82f66"},"training":"EB corbos Adaptive Autosar training","groupId":"EB001","createdAt":{"$numberLong":"1581305075164"},"updatedAt":{"$numberLong":"1581305075164"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5e411392eb9dad00179c5bbb"},"training":"Advanced C++ ","groupId":"EB002","createdAt":{"$numberLong":"1581323154768"},"updatedAt":{"$numberLong":"1581323154768"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5e414eab92063e0017d1cc77"},"training":"Java(Basics)","groupId":"EB002","createdAt":{"$numberLong":"1581338283936"},"updatedAt":{"$numberLong":"1581338283936"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5e4a323135db1c001714c71d"},"training":"Automotive Ethernet (AR Ethernet stack)","groupId":"EB002","createdAt":{"$numberLong":"1581920817459"},"updatedAt":{"$numberLong":"1581920817459"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5e65d7eec97c4d0017126c7f"},"training":"ITA (Testing Tool)","groupId":"EB002","createdAt":{"$numberLong":"1583732718295"},"updatedAt":{"$numberLong":"1583732718295"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ebb7654d878cd0017da6651"},"training":"C++ Basics and Intermediate","groupId":"EB002","createdAt":{"$numberLong":"1589343828613"},"updatedAt":{"$numberLong":"1589343828613"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ebb7e744ea14800178b1b8c"},"training":"Jenkins  Basics & Intermediate","groupId":"EB002","createdAt":{"$numberLong":"1589345908403"},"updatedAt":{"$numberLong":"1589345908403"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ec385f5d678eb0017152b7d"},"training":"Demo Training","groupId":"EB003","createdAt":{"$numberLong":"1589872117834"},"updatedAt":{"$numberLong":"1589872117834"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ec681f62927d80017845d2d"},"training":"Adaptive AUTOSAR (EB corbos) ","groupId":"EB002","createdAt":{"$numberLong":"1590067702331"},"updatedAt":{"$numberLong":"1590067702331"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ed8e6090dc69500170a8f19"},"training":"C++14 Intermediate and Advanced","groupId":"EB002","createdAt":{"$numberLong":"1591272969979"},"updatedAt":{"$numberLong":"1591272969979"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ed905d5c6c6710017ee3730"},"training":"Python Basics","groupId":"EB002","createdAt":{"$numberLong":"1591281109231"},"updatedAt":{"$numberLong":"1591281109231"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ee031f1923cc30017b18e13"},"training":"ADAS Overview","groupId":"EB002","createdAt":{"$numberLong":"1591751153905"},"updatedAt":{"$numberLong":"1591751153905"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ee1bfad0bcb9a0017c1288b"},"training":"QNX","groupId":"EB002","createdAt":{"$numberLong":"1591852973240"},"updatedAt":{"$numberLong":"1591852973240"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5ef1dc9970d1620017103663"},"training":"Technical Storytelling","groupId":"EB003","createdAt":{"$numberLong":"1592908953063"},"updatedAt":{"$numberLong":"1592908953063"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5f01f2205261320017f37933"},"training":"Python Advanced","groupId":"EB002","createdAt":{"$numberLong":"1593963040785"},"updatedAt":{"$numberLong":"1593963040785"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5f281cb15ae9b900177649a1"},"training":"Trace32","groupId":"EB002","createdAt":{"$numberLong":"1596464305190"},"updatedAt":{"$numberLong":"1596464305190"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5f3a77615e686d0017f73ee6"},"training":"Agile Scrum Training","groupId":"EB003","createdAt":{"$numberLong":"1597667169304"},"updatedAt":{"$numberLong":"1597667169304"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5f4ccbaa825bb00017ddc462"},"training":"Embedded C","groupId":"EB002","createdAt":{"$numberLong":"1598868394966"},"updatedAt":{"$numberLong":"1598868394966"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5f4cccf6825bb00017ddc466"},"training":"AR Crypto stack","groupId":"EB002","createdAt":{"$numberLong":"1598868726491"},"updatedAt":{"$numberLong":"1598868726491"},"enableEbGuideForm":false}
+{"_id":{"$oid":"5f4df53c74a54d0017c5b660"},"training":"Linux (Basics)","groupId":"EB002","createdAt":{"$numberLong":"1598944572735"},"updatedAt":{"$numberLong":"1598944572735"},"enableEbGuideForm":false}

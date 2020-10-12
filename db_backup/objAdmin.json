@@ -1,0 +1,6 @@
+{"_id":"feedback","viewMode":"list","panelWidth":"wide","tableDocumentView":{"_id":"id"}}
+{"_id":"trainernames","viewMode":"list","tableDocumentView":{"_id":"id"}}
+{"_id":"ebguidefeedback","panelWidth":"narrow","tableDocumentView":{"_id":"id"},"viewMode":"list"}
+{"_id":"users","tableDocumentView":{"_id":"id"},"viewMode":"list"}
+{"_id":"traininggroups"}
+{"_id":"trainingdetails","tableDocumentView":{"_id":"id"},"viewMode":"list"}

@@ -1,0 +1,12 @@
+{"_id":{"$oid":"5dad6a48c0ba034f409fbee8"},"createdAt":{"$numberLong":"1571646024558"},"updatedAt":{"$numberLong":"1571646024558"},"role":"superadmin","username":"superadmin","password":"superadmin"}
+{"_id":{"$oid":"5db91c0ebe938c0017df5add"},"createdAt":{"$numberLong":"1572412430709"},"updatedAt":{"$numberLong":"1572412430709"},"role":"other","username":"test","password":"123"}
+{"_id":{"$oid":"5db91f58be938c0017df5ade"},"createdAt":{"$numberLong":"1572413272455"},"updatedAt":{"$numberLong":"1572413272455"},"role":"admin","username":"sowmya","password":"123"}
+{"_id":{"$oid":"5db94e93e8043e0017574135"},"createdAt":{"$numberLong":"1572425363697"},"updatedAt":{"$numberLong":"1572425363697"},"role":"admin","username":"admin1","password":"123"}
+{"_id":{"$oid":"5db95c4ae8043e0017574137"},"createdAt":{"$numberLong":"1572428874571"},"updatedAt":{"$numberLong":"1572428874571"},"role":"admin","username":"nitu_sebastian","password":"123456"}
+{"_id":{"$oid":"5ddf59137c213e56251aaafe"},"createdAt":{"$numberLong":"1571646024558"},"updatedAt":{"$numberLong":"1571646024558"},"role":"admin","username":"arif","password":"arif"}
+{"_id":{"$oid":"5e364dd20975a500174a13af"},"role":"admin","username":"EBsurvey","password":"EBsurvey@123","createdAt":{"$numberLong":"1580617170210"},"updatedAt":{"$numberLong":"1580617170210"}}
+{"_id":{"$oid":"5e3d1a44c7cd550017f3ba42"},"role":"admin","username":"HRM_LND","password":"HRM_LND@123","createdAt":{"$numberLong":"1581062724661"},"updatedAt":{"$numberLong":"1581062724661"}}
+{"_id":{"$oid":"5e54062b18f57900174f1660"},"role":"other","username":"trainer","password":"trainer","createdAt":{"$numberLong":"1582564907922"},"updatedAt":{"$numberLong":"1582564907922"}}
+{"_id":{"$oid":"5ec38841d678eb0017152b85"},"role":"admin","username":"gaurav","password":"123","createdAt":{"$numberLong":"1589872705410"},"updatedAt":{"$numberLong":"1589872705410"}}
+{"_id":{"$oid":"5ec38850d678eb0017152b86"},"role":"other","username":"mohan","password":"123","createdAt":{"$numberLong":"1589872720313"},"updatedAt":{"$numberLong":"1589872720313"}}
+{"_id":{"$oid":"5f3f4fa85affbd0017ee7caa"},"role":"admin","username":"bencyb","password":"123456","createdAt":{"$numberLong":"1597984680181"},"updatedAt":{"$numberLong":"1597984680181"}}
