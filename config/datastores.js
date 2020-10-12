@@ -54,9 +54,9 @@ module.exports.datastores = {
 	
    adapter: 'sails-mongo',
   // url: 'mongodb://localhost:27017/feedbackdb_new'
-  //url: 'mongodb://sunitha:nivedan1@ds221115.mlab.com:21115/feedbackdb',
- url: 'mongodb://feedbackdb:one2three@cluster0.k7ovp.mongodb.net:27017/feedbackdb?ssl=true&replicaSet=server-&authSource=admin', 
- ssl: true
+  url: 'mongodb://sunitha:nivedan1@ds221115.mlab.com:21115/feedbackdb',
+ //url: 'mongodb://feedbackdb:one2three@cluster0.k7ovp.mongodb.net:27017/feedbackdb?ssl=true&replicaSet=server-&authSource=admin', 
+ //ssl: true
  // mongodb+srv://feedback:<password>@cluster0.k7ovp.mongodb.net/test
   //url: 'mongodb://nith271670:One2three@ds117866.mlab.com:17866/feedbackdb_new',
   // ssl: false
